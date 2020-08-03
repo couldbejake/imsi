@@ -1,3 +1,5 @@
+[ CONCLUSION ]
+
 Capturing an IMSI during Probe or Connection to a Network
 
 Method 1: WiFi Calling exploit
@@ -14,7 +16,7 @@ The talk at DefCon was slightly mis-represented. Sure you could capture an IMSI 
 (IMSI via Authentication) After realizing the IMSI can only be captured during authentication, I set up a library called EAPHammer which has no native support for EAP-SIM but base EAP. I was able to setup an evil twin hotspot which required a username / password. The library logs the output to the screen. Note: This attack requires an SSL certificate which can be self signed. The library has no native support for EAP-SIM but makes use of ‘hostapd’.
 When connecting to a WiFi network that uses EAP, the device often ignores suggested EAP methods, maybe as a security feature. This means that the user has to manually click on EAP-SIM in the connection panel. This may be a problem as it defeats the purpose of this project; stealthy capturing a device’s IMSI without the user needing direct instructions. However I was able to capture a users IMSI number from their phone if they connect to my network and connect via SIM.
 
-[ Sources ]
+[ SOURCES ]
 
 Wi-Fi Roaming Analysis with Wireshark and AirPcap — Revolution Wi-Fi
 IMSI Catching over WIFI Networks | LinkedIn
