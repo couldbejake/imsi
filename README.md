@@ -1,5 +1,3 @@
-WIP
-
 [ INTRO ]
 
 Every SIM has an IMSI (International Mobile Subscriber Identity) - not to be confused with the IMEI, an IMSI is a 15 digit string of numbers. It can be use to identify a single SIM, and therefore in most situations a person. The IMSI is connected in the Mobile Provider's databases to your banking information, home address and more. A given IMSI for a SIM cannot change and stays the same throughout it's lifetime. 
@@ -9,7 +7,6 @@ Everyone in a nearby vicinity connects to a mobile tower, authenticating using t
 Well that's what some people at defcon have tried to do. In Chris Paget's talk of 2013 he setup a base-station which captured the IMSI by tricking the mobile phone into believing it was a legitamate cell phone tower.
 
 Although this is a neat trick, it is slightly... VERY illegal as it requires broadcasting on restricted frequencies.
-
 
 [ CONCLUSION ]
 
@@ -32,33 +29,61 @@ When connecting to a WiFi network that uses EAP, the device often ignores sugges
 [ SOURCES ]
 
 Wi-Fi Roaming Analysis with Wireshark and AirPcap — Revolution Wi-Fi
+
 IMSI Catching over WIFI Networks | LinkedIn
+
 airodump-ng [Aircrack-ng]
+
 CaptureSetup/WLAN - The Wireshark Wiki
+
 Tracking People & Devices with WiFi
+
 How to Log Wi-Fi Probe Requests from Smartphones & Laptops with Probemon « Null Byte Log Wi-Fi Probe Requests from Smartphones & Laptops with Probemon
+
 TLS Certificates from EAP Network Traffic - Black Hills Information Security
+
 WiFi Pineapple Wiki
+
 The web interface – Hak5
+
 Which EAP types do you need for which identity projects? | Network World
+
 s0lst1c3/eaphammer: Targeted evil twin attacks against WPA2-Enterprise networks. Indirect wireless pivots using hostile portal attacks.
+
 Setup Guide · s0lst1c3/eaphammer Wiki
+
 II. Stealing RADIUS Credentials Using EAPHammer · s0lst1c3/eaphammer Wiki
+
 Home · s0lst1c3/eaphammer Wiki
+
 How RADIUS Server Authentication Works
+
 EAPHammer Version 1.8.0 - EAP downgrade attacks · solstice.sh
+
 EAP-PEAP with Mschapv2: Decrypted and D... - Cisco Community
+
 wpa supplicant - Test EAP-SIM with hostapd and wpa_supplicant - Stack Overflow
+
 sqlite - fatal error: sqlite3.h: No such file or directory - Stack Overflow
+
 hostapd: compiling instructions · IntelOpenDesign/MakerNode Wiki
+
 EbMajor - Nocturne: hostapd/wpa_supplicant hwsim test scripts
+
 hostapd / wpa_supplicant - GIT access
+
 hostapd/hlr_auc_gw.txt - platform/external/wpa_supplicant_8 - Git at Google
+
 https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
+
 wireless - hostapd compile error - Ask Ubuntu
+
 hostap/hostapd.radius_clients at master · wertarbyte/hostap
+
 How To Setup A Wireless Access Point On Linux OS using hostapd - Shellvoide
+
 https://w1.fi/cgit/hostap/plain/hostapd/hostapd.eap_user
+
 Number Lookup API: Ensure Mobile Number Validity | Infobip
 
 
