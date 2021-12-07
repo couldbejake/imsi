@@ -84,6 +84,8 @@ How To Setup A Wireless Access Point On Linux OS using hostapd - Shellvoide
 
 https://w1.fi/cgit/hostap/plain/hostapd/hostapd.eap_user
 
+https://android.googlesource.com/platform/external/wpa_supplicant_8/+/refs/heads/master/hostapd/hlr_auc_gw.c
+
 Number Lookup API: Ensure Mobile Number Validity | Infobip
 
 
