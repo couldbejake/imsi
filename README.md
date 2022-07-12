@@ -1,5 +1,3 @@
-[ INTRO ]
-
 Every SIM has an IMSI (International Mobile Subscriber Identity) - not to be confused with the IMEI, an IMSI is a 15 digit string of numbers. It can be use to identify a single SIM, and therefore in most situations a person. The IMSI is connected in the Mobile Provider's databases to your banking information, home address and more. A given IMSI for a SIM cannot change and stays the same throughout it's lifetime. 
 
 Everyone in a nearby vicinity connects to a mobile tower, authenticating using their IMSI. If you could just collect those special 15 digits, you'd be a god.
@@ -7,8 +5,6 @@ Everyone in a nearby vicinity connects to a mobile tower, authenticating using t
 Well that's what some people at defcon have tried to do. In Chris Paget's talk of 2013 he setup a base-station which captured the IMSI by tricking the mobile phone into believing it was a legitamate cell phone tower.
 
 Although this is a neat trick, it is slightly... VERY illegal as it requires broadcasting on restricted frequencies.
-
-[ CONCLUSION ]
 
 Capturing an IMSI during Probe or Connection to a Network
 
