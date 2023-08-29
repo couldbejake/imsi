@@ -1,3 +1,7 @@
+Title: The stealthy capture of an IMSI code from a mobile phone.
+Date: Aug 3, 2020
+Author: couldbejake
+
 Every SIM has an IMSI (International Mobile Subscriber Identity) - not to be confused with the IMEI, an IMSI is a 15 digit string of numbers. It can be use to identify a single SIM, and therefore in most situations a person. The IMSI is connected in the Mobile Provider's databases to your banking information, home address and more. A given IMSI for a SIM cannot change and stays the same throughout it's lifetime. 
 
 Everyone in a nearby vicinity connects to a mobile tower, authenticating using their IMSI. If you could just collect those special 15 digits, you'd be a god.
